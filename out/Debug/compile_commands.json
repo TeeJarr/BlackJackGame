@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/home/teejarr/Code/games/BlackJackGame/out/Debug",
+  "command": "/usr/bin/c++  -I/home/teejarr/Code/games/BlackJackGame/src -I/home/teejarr/Code/games/BlackJackGame/include -I/home/teejarr/Code/games/BlackJackGame/include/GameState -I/home/teejarr/Code/games/BlackJackGame/include/Globals -I/home/teejarr/Code/games/BlackJackGame/include/UI -I/home/teejarr/Code/games/BlackJackGame/include/Games -I/home/teejarr/Code/games/BlackJackGame/include/Cards -g -std=gnu++20 -o CMakeFiles/Cards.dir/src/Button.cpp.o -c /home/teejarr/Code/games/BlackJackGame/src/Button.cpp",
+  "file": "/home/teejarr/Code/games/BlackJackGame/src/Button.cpp",
+  "output": "CMakeFiles/Cards.dir/src/Button.cpp.o"
+},
+{
+  "directory": "/home/teejarr/Code/games/BlackJackGame/out/Debug",
+  "command": "/usr/bin/c++  -I/home/teejarr/Code/games/BlackJackGame/src -I/home/teejarr/Code/games/BlackJackGame/include -I/home/teejarr/Code/games/BlackJackGame/include/GameState -I/home/teejarr/Code/games/BlackJackGame/include/Globals -I/home/teejarr/Code/games/BlackJackGame/include/UI -I/home/teejarr/Code/games/BlackJackGame/include/Games -I/home/teejarr/Code/games/BlackJackGame/include/Cards -g -std=gnu++20 -o CMakeFiles/Cards.dir/src/Cards/Card.cpp.o -c /home/teejarr/Code/games/BlackJackGame/src/Cards/Card.cpp",
+  "file": "/home/teejarr/Code/games/BlackJackGame/src/Cards/Card.cpp",
+  "output": "CMakeFiles/Cards.dir/src/Cards/Card.cpp.o"
+},
+{
+  "directory": "/home/teejarr/Code/games/BlackJackGame/out/Debug",
+  "command": "/usr/bin/c++  -I/home/teejarr/Code/games/BlackJackGame/src -I/home/teejarr/Code/games/BlackJackGame/include -I/home/teejarr/Code/games/BlackJackGame/include/GameState -I/home/teejarr/Code/games/BlackJackGame/include/Globals -I/home/teejarr/Code/games/BlackJackGame/include/UI -I/home/teejarr/Code/games/BlackJackGame/include/Games -I/home/teejarr/Code/games/BlackJackGame/include/Cards -g -std=gnu++20 -o CMakeFiles/Cards.dir/src/Cards/Deck.cpp.o -c /home/teejarr/Code/games/BlackJackGame/src/Cards/Deck.cpp",
+  "file": "/home/teejarr/Code/games/BlackJackGame/src/Cards/Deck.cpp",
+  "output": "CMakeFiles/Cards.dir/src/Cards/Deck.cpp.o"
+},
+{
+  "directory": "/home/teejarr/Code/games/BlackJackGame/out/Debug",
+  "command": "/usr/bin/c++  -I/home/teejarr/Code/games/BlackJackGame/src -I/home/teejarr/Code/games/BlackJackGame/include -I/home/teejarr/Code/games/BlackJackGame/include/GameState -I/home/teejarr/Code/games/BlackJackGame/include/Globals -I/home/teejarr/Code/games/BlackJackGame/include/UI -I/home/teejarr/Code/games/BlackJackGame/include/Games -I/home/teejarr/Code/games/BlackJackGame/include/Cards -g -std=gnu++20 -o CMakeFiles/Cards.dir/src/Cards/Hand.cpp.o -c /home/teejarr/Code/games/BlackJackGame/src/Cards/Hand.cpp",
+  "file": "/home/teejarr/Code/games/BlackJackGame/src/Cards/Hand.cpp",
+  "output": "CMakeFiles/Cards.dir/src/Cards/Hand.cpp.o"
+},
+{
+  "directory": "/home/teejarr/Code/games/BlackJackGame/out/Debug",
+  "command": "/usr/bin/c++  -I/home/teejarr/Code/games/BlackJackGame/src -I/home/teejarr/Code/games/BlackJackGame/include -I/home/teejarr/Code/games/BlackJackGame/include/GameState -I/home/teejarr/Code/games/BlackJackGame/include/Globals -I/home/teejarr/Code/games/BlackJackGame/include/UI -I/home/teejarr/Code/games/BlackJackGame/include/Games -I/home/teejarr/Code/games/BlackJackGame/include/Cards -g -std=gnu++20 -o CMakeFiles/Cards.dir/src/GameLogic.cpp.o -c /home/teejarr/Code/games/BlackJackGame/src/GameLogic.cpp",
+  "file": "/home/teejarr/Code/games/BlackJackGame/src/GameLogic.cpp",
+  "output": "CMakeFiles/Cards.dir/src/GameLogic.cpp.o"
+},
+{
+  "directory": "/home/teejarr/Code/games/BlackJackGame/out/Debug",
+  "command": "/usr/bin/c++  -I/home/teejarr/Code/games/BlackJackGame/src -I/home/teejarr/Code/games/BlackJackGame/include -I/home/teejarr/Code/games/BlackJackGame/include/GameState -I/home/teejarr/Code/games/BlackJackGame/include/Globals -I/home/teejarr/Code/games/BlackJackGame/include/UI -I/home/teejarr/Code/games/BlackJackGame/include/Games -I/home/teejarr/Code/games/BlackJackGame/include/Cards -g -std=gnu++20 -o CMakeFiles/Cards.dir/src/GameLoop.cpp.o -c /home/teejarr/Code/games/BlackJackGame/src/GameLoop.cpp",
+  "file": "/home/teejarr/Code/games/BlackJackGame/src/GameLoop.cpp",
+  "output": "CMakeFiles/Cards.dir/src/GameLoop.cpp.o"
+},
+{
+  "directory": "/home/teejarr/Code/games/BlackJackGame/out/Debug",
+  "command": "/usr/bin/c++  -I/home/teejarr/Code/games/BlackJackGame/src -I/home/teejarr/Code/games/BlackJackGame/include -I/home/teejarr/Code/games/BlackJackGame/include/GameState -I/home/teejarr/Code/games/BlackJackGame/include/Globals -I/home/teejarr/Code/games/BlackJackGame/include/UI -I/home/teejarr/Code/games/BlackJackGame/include/Games -I/home/teejarr/Code/games/BlackJackGame/include/Cards -g -std=gnu++20 -o CMakeFiles/Cards.dir/src/Main.cpp.o -c /home/teejarr/Code/games/BlackJackGame/src/Main.cpp",
+  "file": "/home/teejarr/Code/games/BlackJackGame/src/Main.cpp",
+  "output": "CMakeFiles/Cards.dir/src/Main.cpp.o"
+},
+{
+  "directory": "/home/teejarr/Code/games/BlackJackGame/out/Debug",
+  "command": "/usr/bin/c++  -I/home/teejarr/Code/games/BlackJackGame/src -I/home/teejarr/Code/games/BlackJackGame/include -I/home/teejarr/Code/games/BlackJackGame/include/GameState -I/home/teejarr/Code/games/BlackJackGame/include/Globals -I/home/teejarr/Code/games/BlackJackGame/include/UI -I/home/teejarr/Code/games/BlackJackGame/include/Games -I/home/teejarr/Code/games/BlackJackGame/include/Cards -g -std=gnu++20 -o CMakeFiles/Cards.dir/src/TextBox.cpp.o -c /home/teejarr/Code/games/BlackJackGame/src/TextBox.cpp",
+  "file": "/home/teejarr/Code/games/BlackJackGame/src/TextBox.cpp",
+  "output": "CMakeFiles/Cards.dir/src/TextBox.cpp.o"
+}
+]
