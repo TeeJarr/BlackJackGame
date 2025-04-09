@@ -136,30 +136,6 @@ Cards/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/build
 .PHONY : Cards/fast
 
-src/Button.o: src/Button.cpp.o
-.PHONY : src/Button.o
-
-# target to build an object file
-src/Button.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/src/Button.cpp.o
-.PHONY : src/Button.cpp.o
-
-src/Button.i: src/Button.cpp.i
-.PHONY : src/Button.i
-
-# target to preprocess a source file
-src/Button.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/src/Button.cpp.i
-.PHONY : src/Button.cpp.i
-
-src/Button.s: src/Button.cpp.s
-.PHONY : src/Button.s
-
-# target to generate assembly for a file
-src/Button.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/src/Button.cpp.s
-.PHONY : src/Button.cpp.s
-
 src/Cards/Card.o: src/Cards/Card.cpp.o
 .PHONY : src/Cards/Card.o
 
@@ -232,53 +208,53 @@ src/Cards/Hand.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/src/Cards/Hand.cpp.s
 .PHONY : src/Cards/Hand.cpp.s
 
-src/GameLogic.o: src/GameLogic.cpp.o
-.PHONY : src/GameLogic.o
+src/Game/GameLogic.o: src/Game/GameLogic.cpp.o
+.PHONY : src/Game/GameLogic.o
 
 # target to build an object file
-src/GameLogic.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/src/GameLogic.cpp.o
-.PHONY : src/GameLogic.cpp.o
+src/Game/GameLogic.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/src/Game/GameLogic.cpp.o
+.PHONY : src/Game/GameLogic.cpp.o
 
-src/GameLogic.i: src/GameLogic.cpp.i
-.PHONY : src/GameLogic.i
+src/Game/GameLogic.i: src/Game/GameLogic.cpp.i
+.PHONY : src/Game/GameLogic.i
 
 # target to preprocess a source file
-src/GameLogic.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/src/GameLogic.cpp.i
-.PHONY : src/GameLogic.cpp.i
+src/Game/GameLogic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/src/Game/GameLogic.cpp.i
+.PHONY : src/Game/GameLogic.cpp.i
 
-src/GameLogic.s: src/GameLogic.cpp.s
-.PHONY : src/GameLogic.s
+src/Game/GameLogic.s: src/Game/GameLogic.cpp.s
+.PHONY : src/Game/GameLogic.s
 
 # target to generate assembly for a file
-src/GameLogic.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/src/GameLogic.cpp.s
-.PHONY : src/GameLogic.cpp.s
+src/Game/GameLogic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/src/Game/GameLogic.cpp.s
+.PHONY : src/Game/GameLogic.cpp.s
 
-src/GameLoop.o: src/GameLoop.cpp.o
-.PHONY : src/GameLoop.o
+src/Game/GameLoop.o: src/Game/GameLoop.cpp.o
+.PHONY : src/Game/GameLoop.o
 
 # target to build an object file
-src/GameLoop.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/src/GameLoop.cpp.o
-.PHONY : src/GameLoop.cpp.o
+src/Game/GameLoop.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/src/Game/GameLoop.cpp.o
+.PHONY : src/Game/GameLoop.cpp.o
 
-src/GameLoop.i: src/GameLoop.cpp.i
-.PHONY : src/GameLoop.i
+src/Game/GameLoop.i: src/Game/GameLoop.cpp.i
+.PHONY : src/Game/GameLoop.i
 
 # target to preprocess a source file
-src/GameLoop.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/src/GameLoop.cpp.i
-.PHONY : src/GameLoop.cpp.i
+src/Game/GameLoop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/src/Game/GameLoop.cpp.i
+.PHONY : src/Game/GameLoop.cpp.i
 
-src/GameLoop.s: src/GameLoop.cpp.s
-.PHONY : src/GameLoop.s
+src/Game/GameLoop.s: src/Game/GameLoop.cpp.s
+.PHONY : src/Game/GameLoop.s
 
 # target to generate assembly for a file
-src/GameLoop.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/src/GameLoop.cpp.s
-.PHONY : src/GameLoop.cpp.s
+src/Game/GameLoop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/src/Game/GameLoop.cpp.s
+.PHONY : src/Game/GameLoop.cpp.s
 
 src/Main.o: src/Main.cpp.o
 .PHONY : src/Main.o
@@ -304,29 +280,53 @@ src/Main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/src/Main.cpp.s
 .PHONY : src/Main.cpp.s
 
-src/TextBox.o: src/TextBox.cpp.o
-.PHONY : src/TextBox.o
+src/UI/Button.o: src/UI/Button.cpp.o
+.PHONY : src/UI/Button.o
 
 # target to build an object file
-src/TextBox.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/src/TextBox.cpp.o
-.PHONY : src/TextBox.cpp.o
+src/UI/Button.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/src/UI/Button.cpp.o
+.PHONY : src/UI/Button.cpp.o
 
-src/TextBox.i: src/TextBox.cpp.i
-.PHONY : src/TextBox.i
+src/UI/Button.i: src/UI/Button.cpp.i
+.PHONY : src/UI/Button.i
 
 # target to preprocess a source file
-src/TextBox.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/src/TextBox.cpp.i
-.PHONY : src/TextBox.cpp.i
+src/UI/Button.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/src/UI/Button.cpp.i
+.PHONY : src/UI/Button.cpp.i
 
-src/TextBox.s: src/TextBox.cpp.s
-.PHONY : src/TextBox.s
+src/UI/Button.s: src/UI/Button.cpp.s
+.PHONY : src/UI/Button.s
 
 # target to generate assembly for a file
-src/TextBox.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/src/TextBox.cpp.s
-.PHONY : src/TextBox.cpp.s
+src/UI/Button.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/src/UI/Button.cpp.s
+.PHONY : src/UI/Button.cpp.s
+
+src/UI/TextBox.o: src/UI/TextBox.cpp.o
+.PHONY : src/UI/TextBox.o
+
+# target to build an object file
+src/UI/TextBox.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/src/UI/TextBox.cpp.o
+.PHONY : src/UI/TextBox.cpp.o
+
+src/UI/TextBox.i: src/UI/TextBox.cpp.i
+.PHONY : src/UI/TextBox.i
+
+# target to preprocess a source file
+src/UI/TextBox.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/src/UI/TextBox.cpp.i
+.PHONY : src/UI/TextBox.cpp.i
+
+src/UI/TextBox.s: src/UI/TextBox.cpp.s
+.PHONY : src/UI/TextBox.s
+
+# target to generate assembly for a file
+src/UI/TextBox.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Cards.dir/build.make CMakeFiles/Cards.dir/src/UI/TextBox.cpp.s
+.PHONY : src/UI/TextBox.cpp.s
 
 # Help Target
 help:
@@ -338,9 +338,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Cards"
-	@echo "... src/Button.o"
-	@echo "... src/Button.i"
-	@echo "... src/Button.s"
 	@echo "... src/Cards/Card.o"
 	@echo "... src/Cards/Card.i"
 	@echo "... src/Cards/Card.s"
@@ -350,18 +347,21 @@ help:
 	@echo "... src/Cards/Hand.o"
 	@echo "... src/Cards/Hand.i"
 	@echo "... src/Cards/Hand.s"
-	@echo "... src/GameLogic.o"
-	@echo "... src/GameLogic.i"
-	@echo "... src/GameLogic.s"
-	@echo "... src/GameLoop.o"
-	@echo "... src/GameLoop.i"
-	@echo "... src/GameLoop.s"
+	@echo "... src/Game/GameLogic.o"
+	@echo "... src/Game/GameLogic.i"
+	@echo "... src/Game/GameLogic.s"
+	@echo "... src/Game/GameLoop.o"
+	@echo "... src/Game/GameLoop.i"
+	@echo "... src/Game/GameLoop.s"
 	@echo "... src/Main.o"
 	@echo "... src/Main.i"
 	@echo "... src/Main.s"
-	@echo "... src/TextBox.o"
-	@echo "... src/TextBox.i"
-	@echo "... src/TextBox.s"
+	@echo "... src/UI/Button.o"
+	@echo "... src/UI/Button.i"
+	@echo "... src/UI/Button.s"
+	@echo "... src/UI/TextBox.o"
+	@echo "... src/UI/TextBox.i"
+	@echo "... src/UI/TextBox.s"
 .PHONY : help
 
 

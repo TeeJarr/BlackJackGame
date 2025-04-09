@@ -72,24 +72,10 @@ include CMakeFiles/Cards.dir/flags.make
 CMakeFiles/Cards.dir/codegen:
 .PHONY : CMakeFiles/Cards.dir/codegen
 
-CMakeFiles/Cards.dir/src/Button.cpp.o: CMakeFiles/Cards.dir/flags.make
-CMakeFiles/Cards.dir/src/Button.cpp.o: /home/teejarr/Code/games/BlackJackGame/src/Button.cpp
-CMakeFiles/Cards.dir/src/Button.cpp.o: CMakeFiles/Cards.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teejarr/Code/games/BlackJackGame/out/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Cards.dir/src/Button.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cards.dir/src/Button.cpp.o -MF CMakeFiles/Cards.dir/src/Button.cpp.o.d -o CMakeFiles/Cards.dir/src/Button.cpp.o -c /home/teejarr/Code/games/BlackJackGame/src/Button.cpp
-
-CMakeFiles/Cards.dir/src/Button.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Cards.dir/src/Button.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teejarr/Code/games/BlackJackGame/src/Button.cpp > CMakeFiles/Cards.dir/src/Button.cpp.i
-
-CMakeFiles/Cards.dir/src/Button.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Cards.dir/src/Button.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teejarr/Code/games/BlackJackGame/src/Button.cpp -o CMakeFiles/Cards.dir/src/Button.cpp.s
-
 CMakeFiles/Cards.dir/src/Cards/Card.cpp.o: CMakeFiles/Cards.dir/flags.make
 CMakeFiles/Cards.dir/src/Cards/Card.cpp.o: /home/teejarr/Code/games/BlackJackGame/src/Cards/Card.cpp
 CMakeFiles/Cards.dir/src/Cards/Card.cpp.o: CMakeFiles/Cards.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teejarr/Code/games/BlackJackGame/out/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Cards.dir/src/Cards/Card.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teejarr/Code/games/BlackJackGame/out/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Cards.dir/src/Cards/Card.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cards.dir/src/Cards/Card.cpp.o -MF CMakeFiles/Cards.dir/src/Cards/Card.cpp.o.d -o CMakeFiles/Cards.dir/src/Cards/Card.cpp.o -c /home/teejarr/Code/games/BlackJackGame/src/Cards/Card.cpp
 
 CMakeFiles/Cards.dir/src/Cards/Card.cpp.i: cmake_force
@@ -103,7 +89,7 @@ CMakeFiles/Cards.dir/src/Cards/Card.cpp.s: cmake_force
 CMakeFiles/Cards.dir/src/Cards/Deck.cpp.o: CMakeFiles/Cards.dir/flags.make
 CMakeFiles/Cards.dir/src/Cards/Deck.cpp.o: /home/teejarr/Code/games/BlackJackGame/src/Cards/Deck.cpp
 CMakeFiles/Cards.dir/src/Cards/Deck.cpp.o: CMakeFiles/Cards.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teejarr/Code/games/BlackJackGame/out/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Cards.dir/src/Cards/Deck.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teejarr/Code/games/BlackJackGame/out/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Cards.dir/src/Cards/Deck.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cards.dir/src/Cards/Deck.cpp.o -MF CMakeFiles/Cards.dir/src/Cards/Deck.cpp.o.d -o CMakeFiles/Cards.dir/src/Cards/Deck.cpp.o -c /home/teejarr/Code/games/BlackJackGame/src/Cards/Deck.cpp
 
 CMakeFiles/Cards.dir/src/Cards/Deck.cpp.i: cmake_force
@@ -117,7 +103,7 @@ CMakeFiles/Cards.dir/src/Cards/Deck.cpp.s: cmake_force
 CMakeFiles/Cards.dir/src/Cards/Hand.cpp.o: CMakeFiles/Cards.dir/flags.make
 CMakeFiles/Cards.dir/src/Cards/Hand.cpp.o: /home/teejarr/Code/games/BlackJackGame/src/Cards/Hand.cpp
 CMakeFiles/Cards.dir/src/Cards/Hand.cpp.o: CMakeFiles/Cards.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teejarr/Code/games/BlackJackGame/out/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Cards.dir/src/Cards/Hand.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teejarr/Code/games/BlackJackGame/out/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Cards.dir/src/Cards/Hand.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cards.dir/src/Cards/Hand.cpp.o -MF CMakeFiles/Cards.dir/src/Cards/Hand.cpp.o.d -o CMakeFiles/Cards.dir/src/Cards/Hand.cpp.o -c /home/teejarr/Code/games/BlackJackGame/src/Cards/Hand.cpp
 
 CMakeFiles/Cards.dir/src/Cards/Hand.cpp.i: cmake_force
@@ -128,38 +114,38 @@ CMakeFiles/Cards.dir/src/Cards/Hand.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Cards.dir/src/Cards/Hand.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teejarr/Code/games/BlackJackGame/src/Cards/Hand.cpp -o CMakeFiles/Cards.dir/src/Cards/Hand.cpp.s
 
-CMakeFiles/Cards.dir/src/GameLogic.cpp.o: CMakeFiles/Cards.dir/flags.make
-CMakeFiles/Cards.dir/src/GameLogic.cpp.o: /home/teejarr/Code/games/BlackJackGame/src/GameLogic.cpp
-CMakeFiles/Cards.dir/src/GameLogic.cpp.o: CMakeFiles/Cards.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teejarr/Code/games/BlackJackGame/out/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Cards.dir/src/GameLogic.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cards.dir/src/GameLogic.cpp.o -MF CMakeFiles/Cards.dir/src/GameLogic.cpp.o.d -o CMakeFiles/Cards.dir/src/GameLogic.cpp.o -c /home/teejarr/Code/games/BlackJackGame/src/GameLogic.cpp
+CMakeFiles/Cards.dir/src/Game/GameLogic.cpp.o: CMakeFiles/Cards.dir/flags.make
+CMakeFiles/Cards.dir/src/Game/GameLogic.cpp.o: /home/teejarr/Code/games/BlackJackGame/src/Game/GameLogic.cpp
+CMakeFiles/Cards.dir/src/Game/GameLogic.cpp.o: CMakeFiles/Cards.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teejarr/Code/games/BlackJackGame/out/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Cards.dir/src/Game/GameLogic.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cards.dir/src/Game/GameLogic.cpp.o -MF CMakeFiles/Cards.dir/src/Game/GameLogic.cpp.o.d -o CMakeFiles/Cards.dir/src/Game/GameLogic.cpp.o -c /home/teejarr/Code/games/BlackJackGame/src/Game/GameLogic.cpp
 
-CMakeFiles/Cards.dir/src/GameLogic.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Cards.dir/src/GameLogic.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teejarr/Code/games/BlackJackGame/src/GameLogic.cpp > CMakeFiles/Cards.dir/src/GameLogic.cpp.i
+CMakeFiles/Cards.dir/src/Game/GameLogic.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Cards.dir/src/Game/GameLogic.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teejarr/Code/games/BlackJackGame/src/Game/GameLogic.cpp > CMakeFiles/Cards.dir/src/Game/GameLogic.cpp.i
 
-CMakeFiles/Cards.dir/src/GameLogic.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Cards.dir/src/GameLogic.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teejarr/Code/games/BlackJackGame/src/GameLogic.cpp -o CMakeFiles/Cards.dir/src/GameLogic.cpp.s
+CMakeFiles/Cards.dir/src/Game/GameLogic.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Cards.dir/src/Game/GameLogic.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teejarr/Code/games/BlackJackGame/src/Game/GameLogic.cpp -o CMakeFiles/Cards.dir/src/Game/GameLogic.cpp.s
 
-CMakeFiles/Cards.dir/src/GameLoop.cpp.o: CMakeFiles/Cards.dir/flags.make
-CMakeFiles/Cards.dir/src/GameLoop.cpp.o: /home/teejarr/Code/games/BlackJackGame/src/GameLoop.cpp
-CMakeFiles/Cards.dir/src/GameLoop.cpp.o: CMakeFiles/Cards.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teejarr/Code/games/BlackJackGame/out/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Cards.dir/src/GameLoop.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cards.dir/src/GameLoop.cpp.o -MF CMakeFiles/Cards.dir/src/GameLoop.cpp.o.d -o CMakeFiles/Cards.dir/src/GameLoop.cpp.o -c /home/teejarr/Code/games/BlackJackGame/src/GameLoop.cpp
+CMakeFiles/Cards.dir/src/Game/GameLoop.cpp.o: CMakeFiles/Cards.dir/flags.make
+CMakeFiles/Cards.dir/src/Game/GameLoop.cpp.o: /home/teejarr/Code/games/BlackJackGame/src/Game/GameLoop.cpp
+CMakeFiles/Cards.dir/src/Game/GameLoop.cpp.o: CMakeFiles/Cards.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teejarr/Code/games/BlackJackGame/out/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Cards.dir/src/Game/GameLoop.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cards.dir/src/Game/GameLoop.cpp.o -MF CMakeFiles/Cards.dir/src/Game/GameLoop.cpp.o.d -o CMakeFiles/Cards.dir/src/Game/GameLoop.cpp.o -c /home/teejarr/Code/games/BlackJackGame/src/Game/GameLoop.cpp
 
-CMakeFiles/Cards.dir/src/GameLoop.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Cards.dir/src/GameLoop.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teejarr/Code/games/BlackJackGame/src/GameLoop.cpp > CMakeFiles/Cards.dir/src/GameLoop.cpp.i
+CMakeFiles/Cards.dir/src/Game/GameLoop.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Cards.dir/src/Game/GameLoop.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teejarr/Code/games/BlackJackGame/src/Game/GameLoop.cpp > CMakeFiles/Cards.dir/src/Game/GameLoop.cpp.i
 
-CMakeFiles/Cards.dir/src/GameLoop.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Cards.dir/src/GameLoop.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teejarr/Code/games/BlackJackGame/src/GameLoop.cpp -o CMakeFiles/Cards.dir/src/GameLoop.cpp.s
+CMakeFiles/Cards.dir/src/Game/GameLoop.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Cards.dir/src/Game/GameLoop.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teejarr/Code/games/BlackJackGame/src/Game/GameLoop.cpp -o CMakeFiles/Cards.dir/src/Game/GameLoop.cpp.s
 
 CMakeFiles/Cards.dir/src/Main.cpp.o: CMakeFiles/Cards.dir/flags.make
 CMakeFiles/Cards.dir/src/Main.cpp.o: /home/teejarr/Code/games/BlackJackGame/src/Main.cpp
 CMakeFiles/Cards.dir/src/Main.cpp.o: CMakeFiles/Cards.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teejarr/Code/games/BlackJackGame/out/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Cards.dir/src/Main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teejarr/Code/games/BlackJackGame/out/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Cards.dir/src/Main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cards.dir/src/Main.cpp.o -MF CMakeFiles/Cards.dir/src/Main.cpp.o.d -o CMakeFiles/Cards.dir/src/Main.cpp.o -c /home/teejarr/Code/games/BlackJackGame/src/Main.cpp
 
 CMakeFiles/Cards.dir/src/Main.cpp.i: cmake_force
@@ -170,42 +156,56 @@ CMakeFiles/Cards.dir/src/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Cards.dir/src/Main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teejarr/Code/games/BlackJackGame/src/Main.cpp -o CMakeFiles/Cards.dir/src/Main.cpp.s
 
-CMakeFiles/Cards.dir/src/TextBox.cpp.o: CMakeFiles/Cards.dir/flags.make
-CMakeFiles/Cards.dir/src/TextBox.cpp.o: /home/teejarr/Code/games/BlackJackGame/src/TextBox.cpp
-CMakeFiles/Cards.dir/src/TextBox.cpp.o: CMakeFiles/Cards.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teejarr/Code/games/BlackJackGame/out/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Cards.dir/src/TextBox.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cards.dir/src/TextBox.cpp.o -MF CMakeFiles/Cards.dir/src/TextBox.cpp.o.d -o CMakeFiles/Cards.dir/src/TextBox.cpp.o -c /home/teejarr/Code/games/BlackJackGame/src/TextBox.cpp
+CMakeFiles/Cards.dir/src/UI/Button.cpp.o: CMakeFiles/Cards.dir/flags.make
+CMakeFiles/Cards.dir/src/UI/Button.cpp.o: /home/teejarr/Code/games/BlackJackGame/src/UI/Button.cpp
+CMakeFiles/Cards.dir/src/UI/Button.cpp.o: CMakeFiles/Cards.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teejarr/Code/games/BlackJackGame/out/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Cards.dir/src/UI/Button.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cards.dir/src/UI/Button.cpp.o -MF CMakeFiles/Cards.dir/src/UI/Button.cpp.o.d -o CMakeFiles/Cards.dir/src/UI/Button.cpp.o -c /home/teejarr/Code/games/BlackJackGame/src/UI/Button.cpp
 
-CMakeFiles/Cards.dir/src/TextBox.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Cards.dir/src/TextBox.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teejarr/Code/games/BlackJackGame/src/TextBox.cpp > CMakeFiles/Cards.dir/src/TextBox.cpp.i
+CMakeFiles/Cards.dir/src/UI/Button.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Cards.dir/src/UI/Button.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teejarr/Code/games/BlackJackGame/src/UI/Button.cpp > CMakeFiles/Cards.dir/src/UI/Button.cpp.i
 
-CMakeFiles/Cards.dir/src/TextBox.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Cards.dir/src/TextBox.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teejarr/Code/games/BlackJackGame/src/TextBox.cpp -o CMakeFiles/Cards.dir/src/TextBox.cpp.s
+CMakeFiles/Cards.dir/src/UI/Button.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Cards.dir/src/UI/Button.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teejarr/Code/games/BlackJackGame/src/UI/Button.cpp -o CMakeFiles/Cards.dir/src/UI/Button.cpp.s
+
+CMakeFiles/Cards.dir/src/UI/TextBox.cpp.o: CMakeFiles/Cards.dir/flags.make
+CMakeFiles/Cards.dir/src/UI/TextBox.cpp.o: /home/teejarr/Code/games/BlackJackGame/src/UI/TextBox.cpp
+CMakeFiles/Cards.dir/src/UI/TextBox.cpp.o: CMakeFiles/Cards.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/teejarr/Code/games/BlackJackGame/out/Debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Cards.dir/src/UI/TextBox.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Cards.dir/src/UI/TextBox.cpp.o -MF CMakeFiles/Cards.dir/src/UI/TextBox.cpp.o.d -o CMakeFiles/Cards.dir/src/UI/TextBox.cpp.o -c /home/teejarr/Code/games/BlackJackGame/src/UI/TextBox.cpp
+
+CMakeFiles/Cards.dir/src/UI/TextBox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Cards.dir/src/UI/TextBox.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/teejarr/Code/games/BlackJackGame/src/UI/TextBox.cpp > CMakeFiles/Cards.dir/src/UI/TextBox.cpp.i
+
+CMakeFiles/Cards.dir/src/UI/TextBox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Cards.dir/src/UI/TextBox.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/teejarr/Code/games/BlackJackGame/src/UI/TextBox.cpp -o CMakeFiles/Cards.dir/src/UI/TextBox.cpp.s
 
 # Object files for target Cards
 Cards_OBJECTS = \
-"CMakeFiles/Cards.dir/src/Button.cpp.o" \
 "CMakeFiles/Cards.dir/src/Cards/Card.cpp.o" \
 "CMakeFiles/Cards.dir/src/Cards/Deck.cpp.o" \
 "CMakeFiles/Cards.dir/src/Cards/Hand.cpp.o" \
-"CMakeFiles/Cards.dir/src/GameLogic.cpp.o" \
-"CMakeFiles/Cards.dir/src/GameLoop.cpp.o" \
+"CMakeFiles/Cards.dir/src/Game/GameLogic.cpp.o" \
+"CMakeFiles/Cards.dir/src/Game/GameLoop.cpp.o" \
 "CMakeFiles/Cards.dir/src/Main.cpp.o" \
-"CMakeFiles/Cards.dir/src/TextBox.cpp.o"
+"CMakeFiles/Cards.dir/src/UI/Button.cpp.o" \
+"CMakeFiles/Cards.dir/src/UI/TextBox.cpp.o"
 
 # External object files for target Cards
 Cards_EXTERNAL_OBJECTS =
 
-Cards: CMakeFiles/Cards.dir/src/Button.cpp.o
 Cards: CMakeFiles/Cards.dir/src/Cards/Card.cpp.o
 Cards: CMakeFiles/Cards.dir/src/Cards/Deck.cpp.o
 Cards: CMakeFiles/Cards.dir/src/Cards/Hand.cpp.o
-Cards: CMakeFiles/Cards.dir/src/GameLogic.cpp.o
-Cards: CMakeFiles/Cards.dir/src/GameLoop.cpp.o
+Cards: CMakeFiles/Cards.dir/src/Game/GameLogic.cpp.o
+Cards: CMakeFiles/Cards.dir/src/Game/GameLoop.cpp.o
 Cards: CMakeFiles/Cards.dir/src/Main.cpp.o
-Cards: CMakeFiles/Cards.dir/src/TextBox.cpp.o
+Cards: CMakeFiles/Cards.dir/src/UI/Button.cpp.o
+Cards: CMakeFiles/Cards.dir/src/UI/TextBox.cpp.o
 Cards: CMakeFiles/Cards.dir/build.make
 Cards: CMakeFiles/Cards.dir/compiler_depend.ts
 Cards: CMakeFiles/Cards.dir/link.txt
