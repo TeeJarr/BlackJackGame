@@ -11,7 +11,8 @@ class GameLogic
   GameLogic();
 
   void Hit(Hand* hand);
-  void DrawHands();
+  void DrawPlayerHands(int a_cur_player);
+  void DrawDealerHand();
   void DealerTurn();
   void PlayerTurn(int player_flag);
   void DealCards();
@@ -37,6 +38,12 @@ class GameLogic
   Hand* GetHands(int index) {
     return m_HandsInPlay[index];
   }
+  float GetCameraOffset(int index) {
+    return m_CameraOffsets[index];
+  }
+  u_int8_t GetPlayerFlag() const {
+    return m_PLAYER_FLAG;
+  }
 
   private:
   void CreateHands();
@@ -48,6 +55,7 @@ class GameLogic
   private:
   // Variables
   std::vector<Hand*> m_HandsInPlay;
+  std::vector<float> m_CameraOffsets;
   int m_NumPlayers;
   int m_TurnCount      = m_NumPlayers;
   int m_MAX_PLAYERS    = 7;

@@ -1,5 +1,4 @@
 #include "GameLoop.hpp"
-#include "Assets.hpp"
 #include "Flags.hpp"
 #include "TextBox.hpp"
 #include "UI.hpp"
@@ -7,7 +6,12 @@
 #include <iostream>
 #include <string>
 
-GameLoop::GameLoop() {}
+GameLoop::GameLoop() {
+  camera.target   = {UI::SCREEN_WIDTH / 2.0f, UI::SCREEN_HEIGHT / 2.0f};
+  camera.offset   = {UI::SCREEN_WIDTH / 2.0f, UI::SCREEN_HEIGHT / 2.0f};
+  camera.rotation = 0.0f;
+  camera.zoom     = 1.0f;
+}
 
 void GameLoop::Draw() {
   BeginDrawing();
@@ -43,9 +47,7 @@ void GameLoop::Update() {
   }
 
   if (game.GetGameState() == PLAYER_GOING) {
-    // std::cout << "Turns are starting\n";
     game.PlayerTurn(game.GetTurnCount());
-    // game.SetGameState(DEALER_GOING);
   }
 
   if (game.GetGameState() == DEALER_GOING) {
@@ -56,6 +58,13 @@ void GameLoop::Update() {
 }
 
 void GameLoop::DrawUI() {
+  if (DEBUG::g_AlignDebug) {
+    DrawLineEx({UI::SCREEN_WIDTH / 2.0f, 0}, {UI::SCREEN_WIDTH / 2.0f, (float)UI::SCREEN_HEIGHT}, 2,
+               WHITE);
+    DrawLineEx({0, UI::SCREEN_HEIGHT / 2.0f}, {(float)UI::SCREEN_WIDTH, UI::SCREEN_HEIGHT / 2.0f},
+               2, WHITE);
+  }
+
   if (game.GetGameState() == GAME_START) {
     DrawTextEx(GetFontDefault(), "Press Enter to start...",
                {UI::SCREEN_WIDTH * 0.5f, UI::SCREEN_HEIGHT * 0.5f}, 36, 1, WHITE);
@@ -68,6 +77,9 @@ void GameLoop::DrawUI() {
     UI::g_btn_map.at("Play").Draw();
     UI::g_btn_map.at("Sit").Draw();
   }
+  if (game.GetGameState() == BET_STAGE) {
+    bet_input.Draw();
+  }
   if (game.GetGameState() == PLAYER_GOING) {
     DrawTextEx(GetFontDefault(),
                std::to_string(game.GetHands(game.GetTurnCount())->GetHandValue()).c_str(),
@@ -75,6 +87,8 @@ void GameLoop::DrawUI() {
     UI::g_btn_map.at("Hit").Draw();
     UI::g_btn_map.at("Stay").Draw();
   }
-
-  bet_input.Draw();
+  if (game.GetGameState() == PLAYER_CHOOSING || DEALER_GOING) {
+    game.DrawPlayerHands(game.GetTurnCount());
+    game.DrawDealerHand();
+  }
 }

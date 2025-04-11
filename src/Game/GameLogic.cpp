@@ -3,6 +3,7 @@
 #include "UI.hpp"
 #include "raylib.h"
 #include <iostream>
+#include <sys/types.h>
 
 GameLogic::GameLogic() : deck(1), m_NumPlayers(2) {
   CreateHands();
@@ -151,7 +152,8 @@ void GameLogic::DealCards() {
     int index = 0;
     for (Hand* hand : m_HandsInPlay) {
       if (hand->GetPlayingStatus()) {
-        Hit(hand);
+        hand->AddCard(Card(2, 0, 0));
+        // Hit(hand);
       } else {
         continue;
       }
@@ -163,6 +165,7 @@ void GameLogic::DealCards() {
   std::cout << "Cards Dealt\n";
   SetGameState(PLAYER_GOING);
 }
+
 // ----- | Helper Functions | ----- //
 void GameLogic::CreateHands() {
   std::vector<Hand*> newHands;
@@ -211,18 +214,75 @@ void GameLogic::RemovePlayer() {
   CreateHands();
 }
 
-// ----- | Drawing Functions | ----- //
-
-void GameLogic::DrawHands() {
-  // iteratre through all of the hands that are
-  // playing that round
-  for (int i = m_NumPlayers; i > 1; i--) {
-    // draw every card with the proper offset in
-    // accordance to how many cards there are in
-    // the hand be able to look at the other non
-    // dealer hands that are in play as well
+void GameLogic::DrawPlayerHands(int a_cur_player) {
+  if (a_cur_player == 0) {
+    return;
   }
-  // draw dealer hands that only show the first
-  // card face up until all of the players have
-  // finished hitting
+  float DefaultOffset_x = UI::SCREEN_WIDTH * 0.5f;
+  if ((m_HandsInPlay[a_cur_player]->size()) % 2 == 0) {
+    float CardOffset = DefaultOffset_x * 0.375f;
+    if (m_HandsInPlay[a_cur_player]->size() > 2.0f) {
+      if (m_HandsInPlay[a_cur_player]->size() == 6) {
+        CardOffset *= (0.02f * ((int)m_HandsInPlay[a_cur_player]->size() / 2.0f));
+      } else if (m_HandsInPlay[a_cur_player]->size() == 4) {
+        CardOffset = DefaultOffset_x * (0.75 / ((int)m_HandsInPlay[a_cur_player]->size() / 2.0f));
+      }
+    } else {
+      CardOffset = DefaultOffset_x * 0.715;
+    }
+    for (Card card : m_HandsInPlay[a_cur_player]->GetHand()) {
+      card.DrawCard({CardOffset, UI::SCREEN_HEIGHT * 0.6f});
+      CardOffset += DefaultOffset_x * 0.35f;
+    }
+  } else {
+    float CardOffset = DefaultOffset_x * 0.3f;
+    m_HandsInPlay[a_cur_player]->size() > 3.0f
+        ? CardOffset -= (0.3f * ((int)m_HandsInPlay[a_cur_player]->size() / 3.0f))
+        : CardOffset *= 2;
+    for (Card card : m_HandsInPlay[a_cur_player]->GetHand()) {
+      card.DrawCard({CardOffset, UI::SCREEN_HEIGHT * 0.6f});
+      CardOffset += DefaultOffset_x * 0.3f;
+    }
+  }
+}
+
+void GameLogic::DrawDealerHand() {
+  float Offset_y;
+  if (m_TurnCount == 0) {
+    Offset_y = UI::SCREEN_HEIGHT * 0.35f;
+  } else {
+    Offset_y = UI::SCREEN_HEIGHT * 0.1f;
+  }
+  // float DefaultOffset_x = UI::SCREEN_WIDTH * 0.5f;
+  // float CardOffset      = DefaultOffset_x * 0.7f;
+  // for (Card card : m_HandsInPlay[0]->GetHand()) {
+  //   card.DrawCard({CardOffset, Offset_y});
+  //   CardOffset = DefaultOffset_x * 1.1f;
+  // }
+
+  float DefaultOffset_x = UI::SCREEN_WIDTH * 0.5f;
+  if ((m_HandsInPlay[0]->size()) % 2 == 0) {
+    float CardOffset = DefaultOffset_x * 0.375f;
+    if (m_HandsInPlay[0]->size() > 2.0f) {
+      if (m_HandsInPlay[0]->size() == 6) {
+        CardOffset *= (0.02f * ((int)m_HandsInPlay[0]->size() / 2.0f));
+      } else if (m_HandsInPlay[0]->size() == 4) {
+        CardOffset = DefaultOffset_x * (0.75 / ((int)m_HandsInPlay[0]->size() / 2.0f));
+      }
+    } else {
+      CardOffset = DefaultOffset_x * 0.715;
+    }
+    for (Card card : m_HandsInPlay[0]->GetHand()) {
+      card.DrawCard({CardOffset, Offset_y});
+      CardOffset += DefaultOffset_x * 0.35f;
+    }
+  } else {
+    float CardOffset = DefaultOffset_x * 0.3f;
+    m_HandsInPlay[0]->size() > 3.0f ? CardOffset -= (0.3f * ((int)m_HandsInPlay[0]->size() / 3.0f))
+                                    : CardOffset *= 2;
+    for (Card card : m_HandsInPlay[0]->GetHand()) {
+      card.DrawCard({CardOffset, Offset_y});
+      CardOffset += DefaultOffset_x * 0.3f;
+    }
+  }
 }

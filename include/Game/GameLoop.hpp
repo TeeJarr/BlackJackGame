@@ -17,6 +17,7 @@ class GameLoop
   private:
   // UI Variables
   Color m_Bg_Color = DARKGREEN;
+  Camera2D camera;
   // Buttons
   TextBox bet_input;
 

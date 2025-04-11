@@ -21,3 +21,10 @@ enum game_state {
   PLAYER_GOING,
   DEALER_GOING,
 };
+
+namespace DEBUG
+{
+  inline bool g_AlignDebug = true;
+  inline bool g_CardDebug  = false;
+  inline bool g_UIDebug    = false;
+} // namespace DEBUG
